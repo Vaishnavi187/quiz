@@ -4,7 +4,7 @@ const Result = ({ score, totalQuestions, onRetry }) => {
   return (
     <div className="p-6 mx-auto text-center mt-44">
       <h1 className="text-3xl font-bold animate-bounce">Congratulations!</h1>
-      <p className="text-2xl font-semibold animate-bounce">
+      <p className="text-2xl font-semibold animate-bounce mt-3">
         Quiz Completed Successfully!!
       </p>
       <p className="mt-6 text-3xl animate-bounce">
