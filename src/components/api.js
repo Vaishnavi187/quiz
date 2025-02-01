@@ -1,6 +1,6 @@
 export const fetchQuizData = async () => {
     try {
-      const response = await fetch("https://corsproxy.io/?https://api.jsonserve.com/Uw5CrX"); 
+      const response = await fetch("https://api.allorigins.win/raw?url=https://api.jsonserve.com/Uw5CrX"); 
       const data = await response.json();
       return data;
     
